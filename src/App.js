@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Greet } from './components/Greet'
+// import { Message } from './components/Message'
+// import { Events } from './components/Events'
+// import { ParentComponent } from './components/AParentComp'
+// import { UserGreetings } from './components/UserGreetings'
+// import { Items } from './components/ItemList'
+// import { Styling } from './components/Styling'
+// import './styles/AppStyle.css'
+// import styles from './styles/AppStyle.module.css'
+// import { Forms } from "./components/Forms"
+import { PostList } from "./components/PostList"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* props */}
+      {/* <Greet name="Harshil" surename="Patel" />
+      <Greet name="Harshal" surename="Prajapati" />
+      <Greet name="Harshali" surename="Sinha" >
+        <p>this is children props</p>
+      </Greet> */}
+      {/* end of props */}
+
+      {/* state */}
+      {/* <Message/> */}
+      {/* end of state */}
+
+      {/* events */}
+      {/* <Events /> */}
+      {/* end of events */}
+
+      {/* function as a props */}
+      {/* <ParentComponent /> */}
+      {/* end of function as a props */}
+
+      {/* conditional rendering */}
+      {/* <UserGreetings /> */}
+      {/* end of conditional rendering */}
+
+      {/* display list of items */}
+      {/* <Items /> */}
+      {/* end of display list of items */}
+
+      {/* Styling */}
+      {/* <Styling /> */}
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.sucess}>Sucess</h1> */}
+      {/* end of Styling */}
+
+      {/* forms */}
+      {/* <Forms /> */}
+      {/* end of forms */}
+
+      {/* get data from API */}
+      <PostList />
+      {/* end of get data from API */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
