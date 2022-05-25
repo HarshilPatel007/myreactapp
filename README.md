@@ -12,5 +12,14 @@
 - display list items
 - css styling
 - forms
-- getting data from API
-  - hooks
+- interacting with API
+  - getting data from API - GET Request
+  - sendind data using API - POST Request
+- hooks
+  - useState
+  - useEffect
+  - useTransition
+
+- TODO
+  - delete data using API
+  - update data using API

@@ -8,7 +8,9 @@
 // import './styles/AppStyle.css'
 // import styles from './styles/AppStyle.module.css'
 // import { Forms } from "./components/Forms"
-import { PostList } from "./components/PostList"
+// import { PostList } from "./components/PostList"
+// import { PostForm } from "./components/PostForm"
+import { MockData } from "./components/MockData"
 
 function App() {
   return (
@@ -52,8 +54,17 @@ function App() {
       {/* end of forms */}
 
       {/* get data from API */}
-      <PostList />
+      {/* <PostList /> */}
       {/* end of get data from API */}
+
+      {/* send data using API */}
+      {/* <PostForm /> */}
+      {/* end of send data using API */}
+
+      {/* useTransition Hook */}
+      <MockData />
+      {/* end of useTransition Hook */}
+
     </div>
   )
 }
